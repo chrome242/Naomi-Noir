@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+*{
+    font-family:"Courier New", Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body{
+    background-image: url("../images/general/background.png");
+}
+
+.navbar{
+    border-color: grey;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.navbar ul li a {
+	/*vendor specifics: */
+	-webkit-transition: box-shadow 0.6s;
+	-moz-transition: box-shadow 0.6s;
+	-ms-transition: box-shadow 0.6s;
+	-o-transition: box-shadow 0.6s;
+	transition: box-shadow 0.6s;
+}
+
+.navbar li a:hover{
+    color: white;
+    border:1px solid grey;
+    box-shadow: inset 0px 0px 45px rgb(154, 133, 137);
+    /* smothing */
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.carousel{
+    background: white;
+    max-height: 350px;
+    margin-bottom: 3%;
+    
+
+}
+
+.carousel img{
+    max-height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 25%;
+}
+
+.right{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 25%;
+}
+a h2{
+    font-size: 28px;
+    color: black;
+}
+
+.vignet:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.syllabus {
+    margin-top: -10px;
+}
+.handouts{
+    max-width: 153px;
+    margin-top: -7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subhead{
+    margin-top: -5px;
+    max-height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.file_anchor{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.borderless tbody tr td, .borderless thead tr th {
+    border: none;
+    
+}
+td{
+    text-align: center;
+}
+
+.featurette{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.featurette h2{
+    color: white;
+}
+
+.borderless tr td a:hover, .borderless tr th a:hover {
+    color: white;
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+
+.featurette-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.responsive img{
+    display: none;
+}
+
+/* Responsive Media Queries */
+
+@media screen and (max-width:1200px){
+    .img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px){
+    .responsive img{
+        display: block;
+    }
+    .featurette-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+    .fullscreen img{
+        display: none;
+    }
+}

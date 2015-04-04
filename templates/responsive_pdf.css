@@ -1,0 +1,37 @@
+/* 
+    Document   : responsive_pdf
+    Created on : Jul 24, 2014, 7:24:02 PM
+    Author     : William LaMorie
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* basic iframe setup. should be hidden unless 
+@media handheld however, it would seem that most
+devices don't use fucking @media handheld so you need to do:
+@media screen and (max-width:xxxpx){}
+will need js to determine browser
+iframe example
+<iframe src="http://docs.google.com/viewer?url=http%3A%2F%2Fwww.naominoir.com%2Ffiles%2Fresume%2FNS_Resume_2014.pdf&embedded=true" width="90%" height="780" >
+
+how to:
+1. have normal inline pdf shown
+2 google doc hidden.
+3 check for what agentdevice is being used
+4 hide or show with JS.
+
+Check pdf view folder for details.
+
+
+*/
+
+@media handheld {
+iframe{
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    border-radius: 10px;
+}
+}

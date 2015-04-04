@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+*{
+    font-family:"Courier New", Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body{
+    background-image: url("../images/general/background.png");
+}
+
+.navbar{
+    border-color: grey;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.navbar ul li a {
+	/*vendor specifics: */
+	-webkit-transition: box-shadow 0.6s;
+	-moz-transition: box-shadow 0.6s;
+	-ms-transition: box-shadow 0.6s;
+	-o-transition: box-shadow 0.6s;
+	transition: box-shadow 0.6s;
+}
+
+.navbar li a:hover{
+    color: white;
+    border:1px solid grey;
+    box-shadow: inset 0px 0px 45px rgb(154, 133, 137);
+    /* smothing */
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.jumbotron{
+    background-color: black;
+    
+}
+
+#image-right-jumbotron img{
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html { 
+    overflow-y: scroll;
+}
+
+.thumbnails li{
+    list-style: none;
+    margin-left: -.5%;
+}
+
+.thumbnails ul{
+    margin-left: -1%;
+}
+
+#apps, #wl, #PC, #Android, #Servlet, #PC2, #Android2, #Servlet2, #mailings p, .fa{
+    color: white;
+}
+
+#apps a:hover, #wl a:hover, #PC a:hover, #Android a:hover, #Servlet a:hover, #PC2 a:hover, #Android2 a:hover, #Servlet2 a:hover, .fa:hover{
+    color: #33FFCC;
+}
+
+#wl {
+    text-decoration: underline;
+}
+#accordion{
+    margin-top: 15px;
+    background-color: black;
+    border-radius: 10px;
+    max-width: 1140px;
+}
+
+.collapse{
+    max-width: 1140px;
+}
+
+.thumbnail{
+    margin-left: -5%;
+}
+
+#apps .btn{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#apps .btn-group{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#apps p{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+#photos ul li a img{
+    max-height: 180px;
+}
+
+.start_hidden, #hidden_br, #show_br, #hide_me{
+    display: none;
+}
+
+/* responsive */
+@media screen and (max-width:991px){
+    .start_shown{
+        display: none;
+    }
+    .start_hidden{
+        display: block;
+    }
+    #apps p{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:530px){
+    h5{
+        display: none;
+    }
+    #hidden_br{
+        display: inline;
+    }
+}
+
+@media screen and (max-width:450px){
+    #hide_br{
+        display: none;
+    }
+    #show_br{
+        display: inline;
+    }
+    .btn-group{
+        padding-right: 0;
+    }
+    #Servlet2{
+        margin-left: -20%;
+    }
+}
