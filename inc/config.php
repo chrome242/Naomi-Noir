@@ -19,7 +19,7 @@
   
   //TODO LIST:
   
-  // TODO: move Nav bar to include, remove home due to name click == home
+  // xx: move Nav bar to include, remove home due to name click == home
   
   // xx: move old css.css to /css/SECTION/style.css because the old system was so mucked.
     // xx css (home) should be fine in /css

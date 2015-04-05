@@ -24,7 +24,7 @@
     <!-- Font-Awesome core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this page -->
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/<?php echo $section; ?>style.css">
     
     <?php
