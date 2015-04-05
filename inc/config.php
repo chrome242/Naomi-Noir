@@ -21,21 +21,18 @@
   
   // move Nav bar to include, remove home due to name click == home
   
-  //TODO: join all CSS files into a css/style file
-    // xx css
-    // xx about
-    // xx cast
+  //TODO: move old css.css to /css/SECTION/style.css because the old system was so mucked.
+    // css
+    // about
+    // cast
     // classes
-    // xx crew
+    // crew
     // design
     // making
     // portfolio
     // productions
     // resume
   
-  //TODO: Add fixes to files to make them rectify with the CSS changes:
-    // About (text, mini-nav, main-image)
-    // 
   
   //TODO: move over from small case to Capitalize directory strucutre, updating as we go
     // about
