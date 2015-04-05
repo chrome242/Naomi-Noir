@@ -25,10 +25,10 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/<?php echo $section; ?>style.css">
     
     <?php
-      if($section == IMAGE_GALLERIES){
+      if($section == DESIGN){
         echo'<!-- Pretty Photo -->
     <link rel="stylesheet" href="' . BASE_URL . 'css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
     <script src="' . BASE_URL . 'js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>';};?>
