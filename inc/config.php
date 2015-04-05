@@ -19,19 +19,19 @@
   
   //TODO LIST:
   
-  // move Nav bar to include, remove home due to name click == home
+  // TODO: move Nav bar to include, remove home due to name click == home
   
-  //TODO: move old css.css to /css/SECTION/style.css because the old system was so mucked.
-    // css
-    // about
-    // cast
-    // classes
-    // crew
-    // design
-    // making
-    // portfolio
-    // productions
-    // resume
+  // xx: move old css.css to /css/SECTION/style.css because the old system was so mucked.
+    // xx css (home) should be fine in /css
+    // xx about
+    // xx cast
+    // xx classes
+    // xx crew
+    // xx design
+    // xx making
+    // xx portfolio
+    // xx productions
+    // xx resume
   
   
   //TODO: move over from small case to Capitalize directory strucutre, updating as we go
