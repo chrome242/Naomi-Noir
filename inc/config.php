@@ -21,6 +21,8 @@
   // --check browser for how to deal with pdfs, download on mobile, getting rid of awsome imbed on them =(
   // --as a followup, fix redundant pdftemplate files.
   // --make included files for design more granular, consider move to DB.
+  // --same with productions
+  // --same with portfolio
   
   //TODO LIST:
   
@@ -30,9 +32,9 @@
     // xx classes
     // xx crew
     // xx design
-    // making
+    // xx making
     // portfolio
-    // productions
+    // xx productions
     // resume
   
   //TODO: Update main page: FLOT, FLAG, about WJL (N)
@@ -43,6 +45,6 @@
   
   //TODO: Update CV (N)
 
-  //TODO: Update Making Of
+  //TODO: Update Making Of (N)
   
   //TODO: Remove templates when the time is right
