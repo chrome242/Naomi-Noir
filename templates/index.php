@@ -4,6 +4,7 @@
 require_once("inc/config.php");
 $section = HOME;
 
+// header
 include(ROOT_PATH."inc/head.php");
 include(ROOT_PATH."inc/navbar.php");
 
