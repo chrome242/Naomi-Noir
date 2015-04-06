@@ -18,8 +18,9 @@
   define("CLASSES", "Classes/");
   
   // 'todonextime' list:
-  // check browser for how to deal with pdfs, download on mobile, getting rid of awsome imbed on them =(
-  // as a followup, fix redundant pdftemplate files.
+  // --check browser for how to deal with pdfs, download on mobile, getting rid of awsome imbed on them =(
+  // --as a followup, fix redundant pdftemplate files.
+  // --make included files for design more granular, consider move to DB.
   
   //TODO LIST:
     
@@ -29,7 +30,7 @@
     // xx cast
     // xx classes
     // xx crew
-    // design
+    // xx design
     // making
     // portfolio
     // productions
