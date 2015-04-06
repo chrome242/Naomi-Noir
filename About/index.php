@@ -15,8 +15,8 @@ include(ROOT_PATH."inc/navbar.php");
  * and a 8 col include. As such, the container for the entire body is opened in
  * the left column include file.
  */
-include("main-image.php");
- 
+include("main-image.php"); // left 4
+include("text.php"); // right 8
 
 
 // closing footer
