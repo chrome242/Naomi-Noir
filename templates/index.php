@@ -7,7 +7,7 @@ $section = HOME;
 include(ROOT_PATH."inc/head.php");
 include(ROOT_PATH."inc/navbar.php");
 
-// here be content
+// body content
 
-
+// closing footer
 include(ROOT_PATH."inc/footer.php");
