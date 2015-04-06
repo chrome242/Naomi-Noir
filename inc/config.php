@@ -58,9 +58,7 @@
   //TODO: Update about
   
   //TODO: Update CV
-  
-  //TODO: Update About
-  
+
   //TODO: Update Making Of
   
   //TODO: Consider making both pdf templates one in the same
