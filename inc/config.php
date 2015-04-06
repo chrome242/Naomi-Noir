@@ -17,28 +17,18 @@
   define("DESIGN", "Design/");
   define("CLASSES", "Classes/");
   
+  // 'todonextime' list:
+  // check browser for how to deal with pdfs, download on mobile, getting rid of awsome imbed on them =(
+  // as a followup, fix redundant pdftemplate files.
+  
   //TODO LIST:
-  
-  // xx: move Nav bar to include, remove home due to name click == home
-  
-  // xx: move old css.css to /css/SECTION/style.css because the old system was so mucked.
-    // xx css (home) should be fine in /css
-    // xx about
-    // xx cast
-    // xx classes
-    // xx crew
-    // xx design
-    // xx making
-    // xx portfolio
-    // xx productions
-    // xx resume
-  
+    
   
   //TODO: move over from small case to Capitalize directory strucutre, updating as we go
     // xx about
     // xx cast
     // xx classes
-    // crew
+    // xx crew
     // design
     // making
     // portfolio
@@ -47,23 +37,16 @@
     
   //TODO: remove auto drop of the first section in the design section
   
-  //XX: Make /Home dir for root files, add .htdoc to protect that one.
-  
+  //TODO: add .htaccess to inc
   
   //TODO: Update main page: FLOT, FLAG, about WJL
   
-  // xx: update footer
-  
   //TODO: redirect rules for changed locations (301's)
   
-  // xx: fix the slideshow on the classes
+  //TODO: Update about (N)
   
-  //TODO: Update about
-  
-  //TODO: Update CV
+  //TODO: Update CV (N)
 
   //TODO: Update Making Of
-  
-  //TODO: Consider making both pdf templates one in the same
   
   //TODO: Remove templates when the time is right
