@@ -47,6 +47,9 @@
     
   //TODO: remove auto drop of the first section in the design section
   
+  //TODO: add files for each subsection. Make /Home dir for root files, add .htdoc to protect that one.
+  
+  
   //TODO: Update main page: FLOT, FLAG, about WJL
   
   //TODO: update footer
