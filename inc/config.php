@@ -37,7 +37,7 @@
   //TODO: move over from small case to Capitalize directory strucutre, updating as we go
     // xx about
     // xx cast
-    // classes
+    // xx classes
     // crew
     // design
     // making
@@ -52,11 +52,11 @@
   
   //TODO: Update main page: FLOT, FLAG, about WJL
   
-  //TODO: update footer
+  // xx: update footer
   
   //TODO: redirect rules for changed locations (301's)
   
-  //TODO: fix the slideshow on the classes
+  // xx: fix the slideshow on the classes
   
   //TODO: Update about
   

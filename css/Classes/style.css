@@ -136,6 +136,9 @@ td{
     .img{
         display: none;
     }
+    .carousel-wrapper{
+        display: none;
+    }
 }
 
 @media screen and (max-width:991px){
