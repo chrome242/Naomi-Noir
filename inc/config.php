@@ -23,7 +23,6 @@
   // --make included files for design more granular, consider move to DB.
   
   //TODO LIST:
-    
   
   //TODO: move over from small case to Capitalize directory strucutre, updating as we go
     // xx about
@@ -35,12 +34,8 @@
     // portfolio
     // productions
     // resume
-    
-  //TODO: remove auto drop of the first section in the design section
   
-  //TODO: add .htaccess to inc
-  
-  //TODO: Update main page: FLOT, FLAG, about WJL
+  //TODO: Update main page: FLOT, FLAG, about WJL (N)
   
   //TODO: redirect rules for changed locations (301's)
   
