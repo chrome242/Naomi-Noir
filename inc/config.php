@@ -23,19 +23,9 @@
   // --make included files for design more granular, consider move to DB.
   // --same with productions
   // --same with portfolio
+  // --make all file src root relative.
   
   //TODO LIST:
-  
-  //TODO: move over from small case to Capitalize directory strucutre, updating as we go
-    // xx about
-    // xx cast
-    // xx classes
-    // xx crew
-    // xx design
-    // xx making
-    // xx portfolio
-    // xx productions
-    // resume
   
   //TODO: Update main page: FLOT, FLAG, about WJL (N)
   

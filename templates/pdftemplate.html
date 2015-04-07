@@ -6,24 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The professional website of Naomi Noir including potfolio, resume,productions, and information on screenwriting courses">
     <meta name="author" content="Naomi Noir, contact@naominoir.com">
-    <meta name="keywords" content="Naomi Noir, screenwriting, productions, film, Ithaca, NY, Bad Faith, Independent filmmaker, Upstate New York, design, marketing">
+    <meta name="keywords" content="Naomi Noir, screenwriting, productions, film, Ithaca, NY, Bad Faith, Independent filmmaker, Upstate New York, design, marketing, graphic design">
     <meta name="designer" content="Naomi Noir, contact@naominoir.com, William LaMorie, wjl10@cornell.edu">
-
-    <link rel="icon" href="../images/general/favicon-2.ico">
+    <meta name="content" content="Naomi Noir, contact@naominoir.com">
+    <meta name="code" content="William LaMorie, wjl10@cornell.edu">
+    <link rel="icon" href="/images/general/favicon-2.ico">
 
     <title>Naomi Noir Productions</title>
+    
+    <!-- JQuery-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS & JS-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     
     <!-- Font-Awesome core CSS -->
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="css.css">
+    <!-- Custom styles for this page -->
+    <link rel="stylesheet" type="text/css" href="/css/Portfolio/style.css">
     
+        
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -31,10 +37,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-  </head>
+  </head>  
+
 
   <body>
     <div class="container">
+        
     <div class="navbar navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -44,26 +52,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="../index.html">Naomi Noir Productions</a>
+        <a class="navbar-brand" href="/">Naomi Noir Productions</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about/index.html">About</a></li>
-            <li><a href="../productions/index.html">Productions</a></li>
-            <li><a href="../design/index.html">Design</a></li>
-            <li><a href="../classes/index.html">Classes</a></li>
-            <li><a href="../contact/index.html">Contact</a></li>
+            <li><a href="/About/">About</a></li>
+            <li><a href="/Productions/">Productions</a></li>
+            <li><a href="/Design/">Design</a></li>
+            <li><a href="/Classes/">Classes</a></li>
+            <li><a href="mailto:contact@naominoir.com">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </div>
+    </div> 
       <embed id="pdf" width="100%" height="1050" alt="" src="" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
       <script type="text/javascript">
           var url_raw = window.location.toString();
           var file = url_raw.substring(url_raw.indexOf("file=")+5);
           document.getElementById("pdf").src =
-                  "../files/productions/" + file;
+                  "../files/making/" + file;
           document.getElementById("pdf").alt = file;
       </script>
       
