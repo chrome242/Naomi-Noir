@@ -24,12 +24,8 @@
   // --same with productions
   // --same with portfolio
   // --make all file src root relative.
+  // --move to a provider that allows htaccess files
   
-  //TODO LIST:
-  
-  //TODO: Update main page: FLOT, FLAG, about WJL (N)
-  
-  //TODO: redirect rules for changed locations (301's)
   
   //TODO: Update about (N)
   
@@ -37,4 +33,3 @@
 
   //TODO: Update Making Of (N)
   
-  //TODO: Remove templates when the time is right
