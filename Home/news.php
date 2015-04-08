@@ -1,18 +1,31 @@
     <div class="container" id="news">
         <div class= "row">
             <div class="col-md-8" id="text">
-                <h2>Recent Projects</h2>
-                <a href="https://opensuny.digication.com/william_lamories_eportfolio/Bringing_It_All_Together_Week_15_Project_3" target="_blank">
-                    <img src="images/index/MonsterDraw_App_sm.png" alt="Monster Draw">
-                </a>
-                <p><a href="https://opensuny.digication.com/william_lamories_eportfolio/Bringing_It_All_Together_Week_15_Project_3" target="_blank">
-                Monster Draw</a> is a fun, simple drawing
-                app for <a href="https://opensuny.digication.com/william_lamories_eportfolio/Final_Build" target="_blank">PC/Mac</a> and
-                <a href="https://opensuny.digication.com/william_lamories_eportfolio/Final_Build" target="_blank">Android</a>, that was
-                developed over the course of a week in a collaboration with <a href="https://opensuny.digication.com/william_lamories_eportfolio/Welcome" target="_blank">
-                William LaMorie</a>. The application was coded in Processing 2.0 and all GUI elements were lovingly drawn by me! Free to download,
-                or free to play with online, Monster Draw in its basic form is slated to make it's Google App Store debut in early 2015 as a free creative
-                toy for anyone to use. Future developments hope to include camera use on mobile devices, refined file saving, and QR scan capacity.</p>      
+                <div class="row">
+                    <h2>Recent Projects</h2>
+                </div>
+                <div class="row">
+                    <a href="http://www.fingerlakesontap.com" target="_blank">
+                        <img src="<?php echo BASE_URL;?>images/index/Finger-Lakes-on-Tap-Logo-sm.png" alt="Finger Lakes On Tap">
+                    </a>
+                    <p>I've been working on design, graphics, and branding for <a href="http://www.fingerlakesontap.com" target="_blank">Finger Lakes On Tap</a>,
+                    which will be opening soon in the scenic town of Skaneateles, NY. Located in the heart of one of the best destinations in the nation for craft brews,
+                    it is sure to be worth the visit!
+                    </p>
+                </div>
+                <hr>
+                <div class="row">
+                    <a href="https://opensuny.digication.com/william_lamories_eportfolio/Bringing_It_All_Together_Week_15_Project_3" target="_blank">
+                        <img src="<?php echo BASE_URL;?>images/index/MonsterDraw_App_sm.png" alt="Monster Draw">
+                    </a>
+                    <p><a href="https://opensuny.digication.com/william_lamories_eportfolio/Bringing_It_All_Together_Week_15_Project_3" target="_blank">
+                    Monster Draw</a> is a fun, simple drawing
+                    app for <a href="https://opensuny.digication.com/william_lamories_eportfolio/Final_Build" target="_blank">PC/Mac</a> and
+                    <a href="https://opensuny.digication.com/william_lamories_eportfolio/Final_Build" target="_blank">Android</a>, that was
+                    developed over the course of a week in a collaboration with <a href="http://www.williamlamorie.com" target="_blank">
+                    William LaMorie</a>. The application was coded in Processing 2.0 and all GUI elements were lovingly drawn by me! Free to download,
+                    or free to play with online.</p>
+                </div>
             </div>
             
             <div class="col-md-12" id="hidden_hr">

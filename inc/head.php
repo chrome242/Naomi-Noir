@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The professional website of Naomi Noir including potfolio, resume,productions, and information on screenwriting courses">
-    <meta name="author" content="Naomi Noir, contact@naominoir.com">
+    <meta name="author" content="William LaMorie, wjl10@cornell.edu">
     <meta name="keywords" content="Naomi Noir, screenwriting, productions, film, Ithaca, NY, Bad Faith, Independent filmmaker, Upstate New York, design, marketing, graphic design">
     <meta name="designer" content="Naomi Noir, contact@naominoir.com, William LaMorie, wjl10@cornell.edu">
     <meta name="content" content="Naomi Noir, contact@naominoir.com">

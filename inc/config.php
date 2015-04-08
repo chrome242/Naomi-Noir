@@ -27,9 +27,6 @@
   // --move to a provider that allows htaccess files
   
   
-  //TODO: Update about (N)
-  
   //TODO: Update CV (N)
 
-  //TODO: Update Making Of (N)
   
