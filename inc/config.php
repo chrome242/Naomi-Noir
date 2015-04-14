@@ -26,6 +26,9 @@
   // --make all file src root relative.
   // --move to a provider that allows htaccess files
   
+  // 'todowhenapplicable' list:
+  // --williamlamorie.com credits
+  // --flagLarp credits
   
   //TODO: Update CV (N)
 
